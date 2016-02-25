@@ -35,7 +35,6 @@ div.toppest {
   border: 2px solid #2d3945;
 }
 
-
 /*form*/
 
 .container form {
@@ -161,7 +160,6 @@ fieldset input[type="radio"] {
 
 }
 
-
 legend {
 	padding: 15px 0;
 }
@@ -199,6 +197,5 @@ footer {
 	label[for="checkb"]{
 		width:100%;
 	}
-	
 	
 	}
