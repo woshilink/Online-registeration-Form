@@ -1,7 +1,7 @@
 body{
-	font-family: serif;
+	font-family: 'Merriweather', serif;
 }
-.copy p, p, label, legend {
+.copy p, p, label, legend,select {
 	color:rgba(45,57,69,0.7);
 }
 
@@ -50,6 +50,7 @@ input[type="text"],
 input[type="email"],
 input[type="button"],   
 select,
+.selector,
 textarea {
 	width: 100%;
 	height: auto;
@@ -77,16 +78,26 @@ textarea {
     direction: rtl;
 }
 .container input:focus {
-	border: 2px solid cyan;
+	border: 2px solid #2d3945;
 	border-radius: 3px;
+}
+.newsletter {
+	border-top: 2px solid #2d3945;
+	padding-top: 40px;
+	margin-top:40px;
+
 }
 select{
    -webkit-appearance: none;
    -moz-appearance: none;
    appearance: none; 
+   margin:0;
     }
 .selector {
 	position: relative;
+	padding:0;
+	display: inline-block;
+
 }
 .selector:before{
 
@@ -181,9 +192,12 @@ footer {
 	}
 	input[type="text"],
 	input[type="email"],
+	.selector,
 	select{
 		width: 75%;
-
+	}
+	label[for="checkb"]{
+		width:100%;
 	}
 	
 	
