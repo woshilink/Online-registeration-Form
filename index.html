@@ -30,12 +30,15 @@
 
 
     <div class="container">
-    <form action="" method="">
+    <form action="URL " method="post">
    <div class="contact_info">
-      <h3>Contact Information</h3>
+    
+      
+      <fieldset>
+        <legend class="contact_form">Contact Information</legend>
 
       <label for="user_name">Full Name</label>
-      <input type="text" id="user_name"name="full_name" placeholder="Required">
+      <input type="text" id="user_name" name="full_name" placeholder="Required">
 
       <label for="user_email">Email Address</label>
       <input type="email" id="user_email" name="email_address" placeholder="Required">
@@ -105,30 +108,32 @@
               <option value="WI">Wisconsin</option>
               <option value="WY">Wyoming</option>
         </select>
+        
       </div>
      <label for="zipcode">Zip Code</label>
     <input type="text" id="zipcode" name="zip_code">
+  </fieldset>
 </div><!--contactinfor-->
 
     <h3 class="newsletter">Newsletter</h3>
     <fieldset class="selections">
         <legend>Select the newsletters you would like to receive</legend>
 
-         <input type="checkbox" id="checkb" name="newsletter_type">
+         <input type="checkbox" id="checkb_html" name="newsletter_type">
          <label for="checkb"><span class="square">HTML News</span></label><br>
 
-        <input type="checkbox" id="checkb" name="newsletter_type">
+        <input type="checkbox" id="checkb_css" name="newsletter_type">
         <label for="checkb"><span class="square">CSS News</span></label><br>
 
-        <input type="checkbox" id="checkb" name="newsletter_type">
+        <input type="checkbox" id="checkb_js" name="newsletter_type">
         <label for="checkb"><span class="square">Javascript News</span></label>
 
     </fieldset>
 
     <fieldset class="selections">
       <legend>Newsletter format</legend>
-      <input type="radio" id="radio_button" name="newsletter_format"><label for="radio_button"><span class="circle">HTML</span></label><br>
-      <input type="radio" id="radio_button" name="newsletter_format"><label for="radio_button"><span class="circle">Plain text</span></label>
+      <input type="radio" id="radio_html" name="newsletter_format"><label for="radio_button"><span class="circle">HTML</span></label><br>
+      <input type="radio" id="radio_plain_text" name="newsletter_format"><label for="radio_button"><span class="circle">Plain text</span></label>
     </fieldset>
 
     <p>Other tops you'd like to hear about</p>
